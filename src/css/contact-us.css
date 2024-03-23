@@ -1,0 +1,147 @@
+.contact-us {
+  padding: 60px 20px;
+  max-width: 375px;
+  margin: 0 auto;
+}
+.contact-us-title {
+  color: #0c0c0c;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1em;
+  letter-spacing: -0.02em;
+}
+
+.form {
+  margin-top: 24px;
+  margin-bottom: 20px;
+  padding: 48px 28px;
+  max-width: 100%;
+  height: 512px;
+  border-radius: 30px;
+  background-color: #f3f3f3;
+}
+
+.form-paragraph {
+  width: 100%;
+  color: rgba(12, 12, 12, 0.7);
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.28em;
+  letter-spacing: -0.02em;
+  margin-bottom: 28px;
+}
+
+.form-field {
+  position: relative;
+}
+
+.form-input {
+  border-radius: 12px;
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  margin-bottom: 18px;
+  width: 100%;
+  background-color: transparent;
+  outline: transparent;
+  height: 42px;
+}
+
+.textarea {
+  min-height: 84px;
+}
+
+::placeholder {
+  padding-top: 12px;
+  padding-left: 14px;
+  color: #0c0c0c;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28em;
+}
+
+.contact-us-button {
+  color: #fbfbfb;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.28em;
+
+  border: none;
+  border-radius: 16px;
+  background: #3350e9;
+  padding: 12px 50px;
+  outline: transparent;
+}
+.contact-us-image {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-us {
+    padding: 80px 32px;
+    max-width: 768px;
+  }
+
+  .contact-us-title {
+    font-size: 48px;
+    line-height: 0.91em;
+    letter-spacing: -0.02em;
+  }
+
+  .form {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 50px 122px;
+    height: 556px;
+  }
+
+  .form-paragraph {
+    font-size: 16px;
+    line-height: 1.25em;
+    letter-spacing: -0.02em;
+  }
+
+  .form-input {
+    font-size: 16px;
+    line-height: 1.25em;
+  }
+
+  .contact-us-image {
+    width: 704px;
+    height: 556px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact-us {
+    padding: 80px 32px;
+    max-width: 768px;
+  }
+
+  .form-and-image {
+    display: flex;
+    width: 1150px;
+    gap: 40px;
+  }
+
+  .form {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 50px 60px;
+    width: 580px;
+    height: 556px;
+  }
+
+  .contact-us-image {
+    margin-top: 40px;
+    width: 530px;
+    height: 556px;
+  }
+}
