@@ -112,7 +112,7 @@
   .list-img-main-clock {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 50px;
-    width: 552px;
+    width: 100%;
     height: 558px;
     margin-left: 20px;
     padding: 80px 112px;
@@ -120,7 +120,7 @@
   .list-img-clock {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 20px;
-    width: 132px;
+    width: 100%;
     height: 132px;
     padding: 16px 18px;
   }
@@ -148,7 +148,7 @@
   .price-is-current {
     font-size: 20px;
     line-height: 1;
-    width: 78px;
+    max-width: 78px;
     height: 32px;
   }
   .previous-price {
@@ -163,7 +163,7 @@
   .list-img-clock {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 20px;
-    width: 132px;
+    width: 100%;
     height: 132px;
   }
   .list-clock {
@@ -180,7 +180,7 @@
   }
   .marq {
     border-radius: 50px;
-    width: 530px;
+    max-width: 530px;
     height: 558px;
   }
   .list-clocks {
