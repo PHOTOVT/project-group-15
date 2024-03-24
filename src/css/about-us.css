@@ -16,7 +16,6 @@ h2 {font-weight: 600;
         border-radius: 16px;
         padding: 15px 37px 15px 38px ;
         background: #3350e9;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         margin-top: 40px;
         margin-right: auto;
         flex-shrink: 0; 
@@ -61,8 +60,8 @@ h2 {font-weight: 600;
         h2 {font-size:  32px;
             line-height: 0.92;}
 
-        .container-about-us{margin-bottom: 80px;}
-        .container{max-width: 704px;}
+        .container-about-us{margin-bottom: 80px;
+            max-width: 704px;}
         .btn-about-us {
             margin-top: 60px;}
             .picture-about-us{border-radius: 50px;}
@@ -72,13 +71,14 @@ h2 {font-weight: 600;
         .container-about-us{
             display: flex;
             gap: 40px;
-            margin-bottom: 100px;}
+            margin-bottom: 100px;
+            max-width: 1150px;
+            padding: 0;}
         .picture-about-us{display: block;
             width: 530px;
             height: 532px;
         }
-        .container{max-width: 1150px;
-        padding: 0;}
+        
         .block{
             margin-bottom: 0px;
             max-width: 580px;
