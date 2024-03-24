@@ -1,11 +1,3 @@
-.container {
-    padding: 0 20px;
-    margin-bottom: 60px;
-    min-width: 320px;
-    width: 100%;
-    max-width: 375px;
-}
-
 .reviews-list{
         display: flex;
         flex-direction: column;
@@ -65,11 +57,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        margin-bottom: 80px;
-    }
-
+    
     .reviews-title {
         margin-bottom: 40px;
         font-size: 48px;
@@ -107,12 +95,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-        margin-bottom: 100px;
-        padding: 0 65px;
-    }
-
     .desktop {
         display: flex;
     }
