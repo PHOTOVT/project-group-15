@@ -37,19 +37,19 @@ body {
   font-family: 'Gilroy', sans-serif;
 }
 
-.container {
+.container, .footer-container {
   padding: 0 20px;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 375px) {
-  .container {
+  .container, .footer-container {
     width: 375px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .container, .footer-container {
     width: 768px;
     padding: 0 32px;
   }
@@ -61,7 +61,7 @@ body {
     padding: 0 65px;
   }
 
-  .container-footer {
+  .footer-container {
     width: 1280px;
     padding: 0 32px;
     margin: 0 auto;
