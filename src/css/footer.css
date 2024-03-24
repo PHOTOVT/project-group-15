@@ -1,4 +1,74 @@
-    .footer-container {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin: 0;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    a {
+        color: currentColor;
+        text-decoration: none;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    body {
+        font-family: 'Gilroy', sans-serif;
+    }
+
+    .container {
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width: 375px) {
+        .container {
+            width: 375px;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .container {
+            width: 768px;
+            padding: 0 32px;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        .container {
+            width: 1280px;
+            padding: 0 65px;
+        }
+
+        .container-footer {
+            width: 1280px;
+            padding: 0 32px;
+            margin: 0 auto;
+        }
+    }
+    
+    .container-footer {
         width: 100%;
         max-width: 335px;
         border-radius: 30px;
@@ -133,7 +203,7 @@
 
     
     @media only screen and (min-width:768px) {
-        .footer-container {
+        .container-footer {
             max-width: 704px;
             padding: 40px 40px 28px 40px;
             margin: 32px 32px 32px;
@@ -212,7 +282,7 @@
 
 
     @media only screen and (min-width: 1280px) {
-        .footer-container {
+        .container-footer {
         max-width: 1216px;
         height: 400px;
         }
