@@ -67,9 +67,6 @@
     }
 }
 @media screen and (min-width: 768px) {
-    .catalog {
-        padding: 80px 0 80px 0;
-    }
     .title-catalog {
         font-size: 48px;
         line-height: 0.9;
@@ -103,9 +100,6 @@
     }
 }
 @media screen and (min-width: 1280px) {
-    .catalog {
-        padding: 100px 0 100px 0;
-    }
     .list-catalog {
         gap: 32px 23px;
     }
