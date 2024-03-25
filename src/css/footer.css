@@ -1,47 +1,3 @@
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p {
-        margin: 0;
-    }
-
-    p:last-child {
-        margin-bottom: 0;
-    }
-
-    ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-    a {
-        color: currentColor;
-        text-decoration: none;
-    }
-
-    button {
-        cursor: pointer;
-    }
-
-    img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-    }
-
-    body {
-        font-family: 'Gilroy', sans-serif;
-    }
-
-    .container {
-        padding: 0 20px;
-        margin: 0 auto;
-    }
-
     @media screen and (min-width: 375px) {
         .container {
             width: 375px;
@@ -74,9 +30,6 @@
         border-radius: 30px;
         padding: 40px 28px 28px 28px;
         background-color: #0c0c0c;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 20px;
         }
     
     .logo-footer {
@@ -204,9 +157,8 @@
     
     @media only screen and (min-width:768px) {
         .container-footer {
-            max-width: 704px;
+            max-width: 768px;
             padding: 40px 40px 28px 40px;
-            margin: 32px 32px 32px;
         }
 
         .logo-list-footer {
@@ -280,27 +232,27 @@
     }
 
 
-
-    @media only screen and (min-width: 1280px) {
-        .container-footer {
+@media only screen and (min-width: 1280px) {
+    .container-footer {
         max-width: 1216px;
         height: 400px;
-        }
-
-        .title-footer {
-            position: absolute;
-            top: 120px;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            margin: 0;
-        }
-
-        .links-h3-footer {
-        margin-top: 126px;
-        }
-
-        .logo-div {
-            width: 1136px;
-            height: 96px;
-        }
+        position: relative;
     }
+
+    .title-footer {
+        position: absolute;
+        margin: 0;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .links-h3-footer {
+        margin-top: 126px;
+    }
+
+    .logo-div {
+        width: 1136px;
+        height: 96px;
+    }
+}
