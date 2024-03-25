@@ -6,45 +6,44 @@
     color: #0c0c0c;}
 
 .btn-about-us {color: #fbfbfb;
-        font-family: "Gilroy", sans-serif;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1.28;
-        letter-spacing: 0.04em;
-        cursor:pointer;
-        border: none;
-        border-radius: 16px;
-        padding: 15px 37px 15px 38px ;
-        background: #3350e9;
-        margin-top: 40px;
-        margin-right: auto;
-        flex-shrink: 0;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        text-align: center;
-        text-decoration: none;
-    
-    
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: 0.04em;
+    cursor:pointer;
+    border: none;
+    border-radius: 16px;
+    padding: 15px 37px 15px 38px ;
+    background: #3350e9;
+    margin-top: 40px;
+    margin-right: auto;
+    flex-shrink: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+     text-decoration: none;
     }
-        .btn-about-us:hover { background-color: #1f3cd4;}
-        .btn-about-us:focus { background-color: #1f3cd4;}
+    .btn-about-us:hover { background-color: #1f3cd4;}
+    .btn-about-us:focus { background-color: #1f3cd4;}
 
-    .block{ padding: 40px 20px;
+.block{ padding: 40px 20px;
     background-color: #f3f3f3;
     border-radius: 30px;
     margin-bottom: 20px;}
 
-    .text-about-us{
-        font-weight: 500;
-        font-size: 14px;
-        font-family: "Gilroy", sans-serif;
-        letter-spacing: -0.02em;
-        color: rgba(12, 12, 12, 0.7);
+.text-about-us{
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Gilroy", sans-serif;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
 
     }
-    .text-top-about-us {padding-top: 28px;
-        padding-bottom: 20px;}
+.text-top-about-us {padding-top: 28px;
+    padding-bottom: 20px;}
 
-    .container-about-us{margin-bottom: 60px;}
+.container-about-us{margin-bottom: 60px;}
+
     @media screen and (min-width: 768px){
         .block{ padding: 80px 60px;
             border-radius: 50px;
