@@ -156,7 +156,7 @@
   justify-content: center;
 }
 
-.mobile-menu.is-open{
+.modal-menu.is-open{
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -178,8 +178,6 @@
     
   }
 }
-
-
 
 .mobile-menu-close-btn{
   position: absolute;
