@@ -1,3 +1,6 @@
+.catalog-container {
+    margin-bottom: 60px;
+}
 .title-catalog {
     font-family: "Gilroy", sans-serif;
     font-weight: 600;
@@ -67,6 +70,9 @@
     }
 }
 @media screen and (min-width: 768px) {
+    .catalog-container {
+        margin-bottom: 80px;
+    }
     .title-catalog {
         font-size: 48px;
         line-height: 0.9;
@@ -100,6 +106,9 @@
     }
 }
 @media screen and (min-width: 1280px) {
+    .catalog-container {
+        margin-bottom: 100px;
+    }
     .list-catalog {
         gap: 32px 23px;
     }
