@@ -1,0 +1,120 @@
+.reviews {
+  padding-bottom: 60px;
+}
+
+/* .reviews-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+} */
+
+.review-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 32px 36px;
+  border-radius: 30px;
+  background-color: #f3f3f3;
+}
+
+.review-image {
+  border-radius: 56px;
+  border: 2px solid #fbfbfb;
+  margin: 0 auto 24px auto;
+}
+
+.reviews-title {
+  color: #0c0c0c;
+  font-family: Gilroy, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.64px;
+  margin-bottom: 24px;
+}
+
+.item-title {
+  color: #0c0c0c;
+  text-align: center;
+  font-family: Gilroy, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+  margin-bottom: 8px;
+}
+
+.item-text {
+  color: rgba(12, 12, 12, 0.4);
+  text-align: center;
+  font-family: Gilroy, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+
+.tablet,
+.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews {
+    padding-bottom: 80px;
+  }
+
+  .reviews-title {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 44px;
+    letter-spacing: -0.96px;
+  }
+
+  .tablet {
+    display: flex;
+  }
+
+  .reviews-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .item-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -0.36px;
+  }
+
+  .item-text {
+    color: rgba(12, 12, 12, 0.4);
+    text-align: center;
+    font-family: Gilroy, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews {
+    padding-bottom: 100px;
+  }
+
+  .desktop {
+    display: flex;
+  }
+
+  .reviews-list {
+    gap: 20px;
+  }
+}

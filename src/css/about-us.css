@@ -1,0 +1,134 @@
+.about-us {
+  padding-bottom: 60px;
+}
+
+.h-about-us {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  font-family: 'Gilroy', sans-serif;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  padding-bottom: 28px;
+}
+
+.list-about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.btn-about-us {
+  color: #fbfbfb;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border: none;
+  border-radius: 16px;
+  padding: 15px 37px 15px 38px;
+  background: #3350e9;
+  margin-right: auto;
+  flex-shrink: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-about-us:hover,
+.btn-about-us:focus,
+.btn-about-us:active {
+  background-color: #1f3cd4;
+}
+
+.block {
+  padding: 40px 20px;
+  background-color: #f3f3f3;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.text-about-us {
+  font-weight: 500;
+  font-size: 14px;
+  font-family: 'Gilroy', sans-serif;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+   .about-us {
+    padding-bottom: 80px;
+  }
+
+  .h-about-us {
+    padding-bottom: 40px;
+  }
+
+  .list-about-us {
+    margin-bottom: 60px;
+  }
+
+  .block {
+    padding: 80px 60px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+  }
+
+  .text-top-about-us {
+    padding-top: 40px;
+  }
+
+  .text-about-us {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .h-about-us {
+    font-size: 32px;
+    line-height: 0.92;
+  }
+
+  .container-about-us {
+    max-width: 100%;
+  }
+
+  .picture-about-us {
+    border-radius: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us {
+    padding-bottom: 100px;
+  }
+
+  .list-about-us {
+    margin-bottom: 40px;
+  }
+
+  .container-about-us {
+    display: flex;
+    gap: 40px;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .picture-about-us {
+    display: block;
+    width: 530px;
+    height: 532px;
+  }
+
+  .block {
+    margin-bottom: 0px;
+    max-width: 580px;
+  }
+
+  .h-about-us {
+    font-size: 48px;
+  }
+}
