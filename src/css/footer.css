@@ -30,7 +30,6 @@
         border-radius: 30px;
         padding: 40px 28px 28px 28px;
         background-color: #0c0c0c;
-        margin-bottom: 20px;
         }
     
     .logo-footer {
@@ -58,6 +57,7 @@
     }
 
     .tell-footer {
+        display: inline-block;
         font-family: "Gilroy", sans-serif;
         font-weight: 500;
         font-size: 12px;
@@ -71,6 +71,7 @@
     }
 
     .title-footer {
+        display: inline-block;
         font-family: "Gilroy", sans-serif;
         font-weight: 600;
         font-size: 20px;
@@ -78,8 +79,10 @@
         letter-spacing: -0.02em;
         text-align: center;
         color: #fbfbfb;
+    }
+
+    .title-footer-container {
         margin-bottom: 92px;
-        display: inline-block;
     }
 
     .link-footer {
@@ -131,16 +134,16 @@
     }
 
     .div-footer-policy {
-        margin-top: 24px;
-    }
-
-    .line {
+        padding-top: 24px;
         border-top: 1px solid rgba(251, 251, 251, 0.1);
     }
 
     .social-list {
         display: flex;
         gap: 10px;
+    }
+
+    .logo-list-footer {
         margin-bottom: 20px;
     }
 
@@ -149,7 +152,7 @@
     }
 
     .links-h3-footer {
-        margin-bottom: 24px;
+        padding-bottom: 24px;
         display: flex;
     }
 
@@ -162,11 +165,9 @@
         .container-footer {
             max-width: 768px;
             padding: 40px 40px 28px 40px;
-            margin-bottom: 34px;
         }
 
         .logo-list-footer {
-            margin-bottom: 86px;
             margin-right: auto;
         }
 
@@ -175,7 +176,7 @@
         }
 
         .logo-div {
-            margin-bottom: 0;
+            margin-bottom: 86px;
             display: flex;
             justify-content: space-between;
         }
@@ -189,11 +190,14 @@
 
         .title-footer {
             width: 524px;
-            margin-bottom: 100px;
             margin-left: 50px;
             margin-right: 50px;
             font-size: 28px;
             line-height: 1.2;
+        }
+
+        .title-footer-container {
+            margin-bottom: 100px;
         }
 
         .links-footer-list {
@@ -241,7 +245,6 @@
         max-width: 1216px;
         height: 400px;
         position: relative;
-        margin-bottom: 36px;
     }
 
     .title-footer {
@@ -252,12 +255,9 @@
         transform: translateX(-50%);
     }
 
-    .links-h3-footer {
-        margin-top: 126px;
-    }
-
     .logo-div {
         width: 1136px;
         height: 96px;
+        margin-bottom: 126px;
     }
 }

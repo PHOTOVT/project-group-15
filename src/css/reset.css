@@ -37,8 +37,13 @@ body {
   font-family: 'Gilroy', sans-serif;
 }
 
-.container, .footer-container {
+.container {
   padding: 0 20px;
+  margin: 0 auto;
+}
+
+.footer-container {
+  padding: 0 20 20px;
   margin: 0 auto;
 }
 
@@ -53,6 +58,12 @@ body {
     width: 768px;
     padding: 0 32px;
   }
+
+  .footer-container {
+    width: 768px;
+    padding: 0 32px 32px;
+  }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -63,7 +74,7 @@ body {
 
   .footer-container {
     width: 1280px;
-    padding: 0 32px;
+    padding: 0 32px 34px;
     margin: 0 auto;
   }
 }

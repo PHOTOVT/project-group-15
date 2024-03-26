@@ -1,6 +1,7 @@
-.catalog-container {
-    margin-bottom: 60px;
+.catalog {
+    padding-bottom: 60px;
 }
+
 .title-catalog {
     font-family: "Gilroy", sans-serif;
     font-weight: 600;
@@ -15,18 +16,13 @@
     flex-wrap: wrap;
     gap: 20px 23px;
 }
+
 .listt-catalog {
     background-color: #F3F3F3;
     border-radius: 30px;
-    width: 100%;
+    padding: 24px 28px;
 }
-.img-catalog {
-    margin: 0 auto;
-    padding: 24px 28px 0 24px;
-}
-.box-text-catalog {
-    padding: 10px 28px 24px 28px;
-}
+
 .catalog-title {
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
@@ -76,9 +72,10 @@
     }
 }
 @media screen and (min-width: 768px) {
-    .catalog-container {
-        margin-bottom: 80px;
+    .catalog {
+        padding-bottom: 80px;
     }
+    
     .title-catalog {
         font-size: 48px;
         line-height: 0.9;
@@ -89,12 +86,7 @@
     .listt-catalog {
         width: calc((100% - 16px) / 2);
     }
-    .img-catalog {
-        padding: 24px 32px 0 32px;
-    }
-    .box-text-catalog {
-        padding: 10px 32px 24px 32px;
-    }
+
     .catalog-title {
         font-size: 20px;
         line-height: 1;
@@ -112,9 +104,10 @@
     }
 }
 @media screen and (min-width: 1280px) {
-    .catalog-container {
-        margin-bottom: 100px;
+    .catalog {
+        padding-bottom: 100px;
     }
+
     .list-catalog {
         gap: 32px 23px;
     }
