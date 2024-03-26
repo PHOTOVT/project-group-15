@@ -37,14 +37,13 @@ body {
   font-family: 'Gilroy', sans-serif;
 }
 
-.container {
+.container, .footer-container {
   padding: 0 20px;
   margin: 0 auto;
 }
 
 .footer-container {
-  padding: 0 20 20px;
-  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 375px) {
