@@ -12,21 +12,21 @@
     
     <link />
     <script type="module" crossorigin src="/project-group-15/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-15/assets/index-f229eee5.css">
+    <link rel="stylesheet" href="/project-group-15/assets/index-38903765.css">
   </head>
   <body>
-    <header>
+    <header class="container-header" id="header">
       <div class="page-header">
   <div class="container">
     <nav class="page-nav">
-      <a class="logo" href="./index.html" id="header">watchcharm</a>
+      <a class="logo" href="./index.html">watchcharm</a>
       <ul class="nav-list">
-        <li class="nav-list-item"><a class="nav-link current" href="./index.html">Home</a></li>
-        <li class="nav-list-item"><a class="nav-link" href="">About Us</a></li>
-        <li class="nav-list-item"><a class="nav-link" href="">Catalog</a></li>
-        <li class="nav-list-item"><a class="nav-link" href="">Sale</a></li>
-        <li class="nav-list-item"><a class="nav-link" href="">Reviews</a></li>
-        <li class="nav-list-item"><a class="nav-link" href="">Contact Us</a></li>
+        <li class="nav-list-item"><a class="nav-link current" href="#header">Home</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="#about-us">About Us</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="#catalog">Catalog</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="#sale">Sale</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="#contact-us">Contact Us</a></li>
       </ul>
     </nav>
     <button class="mobile-menu-open-btn" type="button">
@@ -115,8 +115,8 @@
 </div>
     </header>
     <main>
-      <section class="container">
-    <div class="hero">
+      <section class="hero">
+    <div class="container main-container">
      <div class="hero-container">
       <h1 class="hero-title" id="hero">
         Welcome to our <span class="collection">collection</span> of premium
@@ -149,7 +149,6 @@
         />
       </picture>
       <a href="#footer" class="hero-link">Scroll down</a>
-    </div>
 </div>
     <picture>
       <source
@@ -170,17 +169,20 @@
         alt="main hero image"
       />
     </picture>
+  </div>
 </section>
 
-      <section class="container about-us">
-    <div class="container-about-us">
+      <section class="about-us">
+    <div class="container container-about-us">
         <div class="block">
             <h2 class="h-about-us" id="about-us"> About Us</h2>
+            <ul class="list-about-us">
             <p class="text-about-us text-top-about-us">Welcome to our premium watch collection, where luxury and style meet functionality and precision. Our selection of timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring that you'll always have a reliable and stylish accessory on your wrist.
             </p>
             <p class="text-about-us">At our premium watch collection, we believe that a watch is more than just a timekeeping device – it's a statement piece that reflects your personality and style. So why settle for anything less than the best? 
             </p>
-            <a href="#catalog" class="btn-about-us" type="button">View catalog </a>
+        </ul>
+            <a href="#catalog" class="btn-about-us">View catalog </a>
         </div>
         <picture>
             <source srcset="/project-group-15/assets/img-about-us-comp-cf5cb6ee.jpg 1x, /project-group-15/assets/img-about-us-comp-2x-e581583c.jpg 2x" media="(min-width: 1280px)">
@@ -191,16 +193,16 @@
     </div>
 </section>
       <section class="catalog">
-    <div class="container catalog-container">
+    <div class="container">
         <h2 class="title-catalog" id="catalog">Catalog</h2>
         <ul class="list-catalog">
             <li class="listt-catalog">
                 <picture>
-                    <source srcset="/project-group-15/assets/main-clock-1-1x-446dc1ba.png 1x, /project-group-15/assets/main-clock-1-2x-9b6113f6.png 2x" media="(min-width: 1280px)"/>
-                    <source srcset="/project-group-15/assets/tabl-clock-1-1x-1bb29687.png 1x, /project-group-15/assets/tabl-clock-1-2x-7be2ce2b.png 2x" media="(min-width: 768px)"/>
-                    <source srcset="/project-group-15/assets/clock-1-1x-bca7394e.png 1x, /project-group-15/assets/clock-1-2x-a68769e3.png 2x" media="(max-width: 767px)"/>
+                    <source srcset="/project-group-15/assets/main-clock-1-1x-8105a39c.png 1x, /project-group-15/assets/main-clock-1-2x-695ac266.png 2x" media="(min-width: 1280px)"/>
+                    <source srcset="/project-group-15/assets/tabl-clock-1-1x-b7938411.png 1x, /project-group-15/assets/tabl-clock-1-2x-cacf177e.png 2x" media="(min-width: 768px)"/>
+                    <source srcset="/project-group-15/assets/clock-1-1x-6d6a3667.png 1x, /project-group-15/assets/clock-1-2x-a7a60f79.png 2x" media="(max-width: 767px)"/>
+                    <img class="img-catalog" src="/project-group-15/assets/clock-1-1x-6d6a3667.png" alt="clock-1">
                 </picture>
-                <img class="img-catalog" src="/project-group-15/assets/clock-1-1x-bca7394e.png" width="279" height="262" alt="clock-1">
                 <div class="box-text-catalog">
                     <h3 class="catalog-title">Garmin Fenix 7X Pro Sapphire<span class="catalog-span"> Sol<span class="catalog-span-main">ar</span></span><span class="catalog-span-mob">...</span></h3>
                     <p class="text-catalog">€500</p>
@@ -208,11 +210,12 @@
             </li>
             <li class="listt-catalog">
                 <picture>
-                    <source srcset="/project-group-15/assets/main-clock-2-1x-1cf94639.png 1x, /project-group-15/assets/main-clock-2-2x-c574e6ab.png 2x" media="(min-width: 1280px)"/>
-                    <source srcset="/project-group-15/assets/tabl-clock-2-1x-48b481b1.png 1x, /project-group-15/assets/tabl-clock-2-2x-fdb182d2.png 2x" media="(min-width: 768px)"/>
-                    <source srcset="/project-group-15/assets/clock-2-1x-4aaa7c98.png 1x, /project-group-15/assets/clock-2-2x-9b68229c.png 2x" media="(max-width: 767px)"/>
+                    <source srcset="/project-group-15/assets/main-clock-2-1x-9163aabf.png 1x, /project-group-15/assets/main-clock-2-2x-8ebc4da3.png 2x" media="(min-width: 1280px)"/>
+                    <source srcset="/project-group-15/assets/tabl-clock-2-1x-1a09be61.png 1x, /project-group-15/assets/tabl-clock-2-2x-c56d2e64.png 2x" media="(min-width: 768px)"/>
+                    <source srcset="/project-group-15/assets/clock-2-1x-6b5ca528.png 1x, /project-group-15/assets/clock-2-2x-254790bb.png 2x" media="(max-width: 767px)"/>
+                    <img class="img-catalog" src="/project-group-15/assets/clock-2-1x-6b5ca528.png" alt="clock-2">
                 </picture>
-                <img class="img-catalog" src="/project-group-15/assets/clock-2-1x-4aaa7c98.png" width="279" height="262" alt="clock-2">
+
                 <div class="box-text-catalog">
                     <h3 class="catalog-title">Garmin Marq Athlete</h3>
                     <p class="text-catalog">€450</p>
@@ -220,11 +223,12 @@
             </li>
             <li class="listt-catalog">
                 <picture>
-                    <source srcset="/project-group-15/assets/main-clock-3-1x-fdff6b88.png 1x, /project-group-15/assets/main-clock-3-2x-cfa72ca9.png 2x" media="(min-width: 1280px)"/>
-                    <source srcset="/project-group-15/assets/tabl-clock-3-1x-74207de6.png 1x, /project-group-15/assets/tabl-clock-3-2x-c9673328.png 2x" media="(min-width: 768px)"/>
-                    <source srcset="/project-group-15/assets/clock-3-1x-4caa4012.png 1x, /project-group-15/assets/clock-3-2x-b384f5f6.png 2x" media="(max-width: 767px)"/>
+                    <source srcset="/project-group-15/assets/main-clock-3-1x-0678b23f.png 1x, /project-group-15/assets/main-clock-3-2x-32108812.png 2x" media="(min-width: 1280px)"/>
+                    <source srcset="/project-group-15/assets/tabl-clock-3-1x-6bc178cf.png 1x, /project-group-15/assets/tabl-clock-3-2x-c9c78dd4.png 2x" media="(min-width: 768px)"/>
+                    <source srcset="/project-group-15/assets/clock-3-1x-ff4adf01.png 1x, /project-group-15/assets/clock-3-2x-44e1b58b.png 2x" media="(max-width: 767px)"/>
+                    <img class="img-catalog" src="/project-group-15/assets/clock-3-1x-ff4adf01.png" alt="clock-3">
                 </picture>
-                <img class="img-catalog" src="/project-group-15/assets/clock-3-1x-4caa4012.png" width="279" height="262" alt="clock-3">
+
                 <div class="box-text-catalog">
                     <h3 class="catalog-title">Garmin Descent MK1</h3>
                     <p class="text-catalog">€680</p>
@@ -232,11 +236,12 @@
             </li>
             <li class="listt-catalog">
                 <picture>
-                    <source srcset="/project-group-15/assets/main-clock-4-1x-9aeaca82.png 1x, /project-group-15/assets/main-clock-4-2x-a31e2ba3.png 2x" media="(min-width: 1280px)"/>
-                    <source srcset="/project-group-15/assets/tabl-clock-4-1x-25d2c1f4.png 1x, /project-group-15/assets/tabl-clock-4-2x-2562ee2a.png 2x" media="(min-width: 768px)"/>
-                    <source srcset="/project-group-15/assets/clock-4-1x-5af223b2.png 1x, /project-group-15/assets/clock-4-2x-6c53ff13.png 2x" media="(max-width: 767px)"/>
+                    <source srcset="/project-group-15/assets/main-clock-4-1x-638caef8.png 1x, /project-group-15/assets/main-clock-4-2x-8508e6b5.png 2x" media="(min-width: 1280px)"/>
+                    <source srcset="/project-group-15/assets/tabl-clock-4-1x-768e40d5.png 1x, /project-group-15/assets/tabl-clock-4-2x-8f88f610.png 2x" media="(min-width: 768px)"/>
+                    <source srcset="/project-group-15/assets/clock-4-1x-863e7d1a.png 1x, /project-group-15/assets/clock-4-2x-9e3e5682.png 2x" media="(max-width: 767px)"/>
+                    <img class="img-catalog" src="/project-group-15/assets/clock-4-1x-863e7d1a.png" alt="clock-4">
                 </picture>
-                <img class="img-catalog" src="/project-group-15/assets/clock-4-1x-5af223b2.png" width="279" height="262" alt="clock-4">
+
                 <div class="box-text-catalog">
                     <h3 class="catalog-title">Garmin D2 Delta PX</h3>
                     <p class="text-catalog">€380</p>
@@ -244,10 +249,11 @@
             </li>
             <li class="listt-catalog hide-catalog">
                 <picture>
-                    <source srcset="/project-group-15/assets/main-clock-5-1x-56691365.png 1x, /project-group-15/assets/main-clock-5-2x-d6cae469.png 2x" media="(min-width: 1280px)"/>
-                    <source srcset="/project-group-15/assets/tabl-clock-5-1x-238bd151.png 1x, /project-group-15/assets/tabl-clock-5-2x-58776d14.png 2x" media="(min-width: 768px)"/>
+                    <source srcset="/project-group-15/assets/main-clock-5-1x-4f4d2aba.png 1x, /project-group-15/assets/main-clock-5-2x-32cb6ef2.png 2x" media="(min-width: 1280px)"/>
+                    <source srcset="/project-group-15/assets/tabl-clock-5-1x-5ff45ae9.png 1x, /project-group-15/assets/tabl-clock-5-2x-2f5138cf.png 2x" media="(min-width: 768px)"/>
+                    <img class="img-catalog" src="/project-group-15/assets/tabl-clock-5-1x-5ff45ae9.png" alt="clock-5">
                 </picture>
-                <img class="img-catalog" src="/project-group-15/assets/tabl-clock-5-1x-238bd151.png" width="279" height="262" alt="clock-5">
+
                 <div class="box-text-catalog">
                     <h3 class="catalog-title">Garmin Fenix 6 Pro Solar</h3>
                     <p class="text-catalog">€400</p>
@@ -255,10 +261,10 @@
             </li>
             <li class="listt-catalog hide-catalog">
                 <picture>
-                    <source srcset="/project-group-15/assets/main-clock-6-1x-e3b956af.png 1x, /project-group-15/assets/main-clock-6-2x-0f0bdace.png 2x" media="(min-width: 1280px)"/>
-                    <source srcset="/project-group-15/assets/tabl-clock-6-1x-ecf44500.png 1x, /project-group-15/assets/tabl-clock-6-2x-e451c455.png 2x" media="(min-width: 768px)"/>
+                    <source srcset="/project-group-15/assets/main-clock-6-1x-9d6fc8c9.png 1x, /project-group-15/assets/main-clock-6-2x-ff507e90.png 2x" media="(min-width: 1280px)"/>
+                    <source srcset="/project-group-15/assets/tabl-clock-6-1x-987902d1.png 1x, /project-group-15/assets/tabl-clock-6-2x-75837a6f.png 2x" media="(min-width: 768px)"/>
+                    <img class="img-catalog" src="/project-group-15/assets/tabl-clock-6-1x-987902d1.png" alt="clock-6">
                 </picture>
-                <img class="img-catalog" src="/project-group-15/assets/tabl-clock-6-1x-ecf44500.png" width="279" height="262" alt="clock-6">
                 <div class="box-text-catalog">
                     <h3 class="catalog-title">Tube Watch S42 Date Steel W<span class="catalog-span-tab-last">ith<span class="catalog-span-main-last"> Black Case</span></span><span class="catalog-span-last">...</span></h3>
                     <p class="text-catalog">€395</p>
@@ -268,13 +274,21 @@
         <button type="button" class="button-catalog">Show more</button>
     </div>
 </section>
-      <section class="container">
-    <div class="advertisement advertisement-container">
-        <h2 class="visually-hidden-advertisement" id="advertisement">Advertisement</h2>
-        <p class="text-advertisement">Choose <span class="text-advertisement-color">your story</span>, making every moment unique. Time is your style, and we reveal it.</p>
-        <a href="#contact-us"><button class="button-advertisement" type="button">Contact Us</button></a>
+      <section class="advertisement">
+  <div class="container">
+    <div class="advertisement-container">
+      <h2 class="visually-hidden-advertisement" id="advertisement">
+        Advertisement
+      </h2>
+      <p class="text-advertisement">
+        Choose <span class="text-advertisement-color">your story</span>, making
+        every moment unique. Time is your style, and we reveal it.
+      </p>
+      <a href="#contact-us" class="button-advertisement">Contact Us</a>
     </div>
+  </div>
 </section>
+
       <section class="section-sale">
   <div class="container">
     <h2 class="title-sale" id="sale">Sale</h2>
@@ -436,8 +450,7 @@
   <div class="container">
     <h2 class="reviews-title" id="reviews">Reviews</h2>
     <ul class="reviews-list">
-      <div class="review-card">
-        <li class="reviews-list-item">
+        <li class="review-list-item">
           <img
             class="review-image"
             src="/project-group-15/assets/John-7e03c0d8.jpg"
@@ -452,9 +465,7 @@
             nicely on the hand, and the mechanism works flawlessly.
           </p>
         </li>
-      </div>
-      <div class="review-card tablet">
-        <li class="reviews-list-item">
+        <li class="review-list-item tablet">
           <img
             class="review-image"
             src="/project-group-15/assets/Victoria-3caafe46.jpg"
@@ -469,9 +480,7 @@
             detail make it a real gem among my accessories.
           </p>
         </li>
-      </div>
-      <div class="review-card desktop">
-        <li class="reviews-list-item">
+        <li class="review-list-item desktop">
           <img
             class="review-image"
             src="/project-group-15/assets/Anastasia-b5639b79.jpg"
@@ -486,15 +495,15 @@
             make it an indispensable companion in my daily life.
           </p>
         </li>
-      </div>
     </ul>
   </div>
 </section>
 
-      <section class="container">
+      <section class="contact-us">
+  <div class="container">
   <h2 class="contact-us-title" id="contact-us">Contact us</h2>
   <div class="form-and-image">
-    <div class="form">
+    <form class="form">
       <p class="form-paragraph">
         Please use the form below to contact us. Enter your name, email, phone,
         and message and we'll get back to you shortly.
@@ -537,7 +546,7 @@
         ></textarea>
       </div>
       <button type="submit" class="contact-us-button">Send</button>
-    </div>
+    </form>
     <picture>
       <source
         media="(max-width: 767px)"
@@ -560,11 +569,12 @@
       />
     </picture>
   </div>
+</div>
 </section>
 
     </main>
     <footer class="footer-container" id="footer"> 
-      <div class="footer-container container-footer">
+      <div class="container-footer">
     <div class="logo-div">
         <div class="logo-list-footer">
             <p class="logo-footer" id="footer">watchcharm</p>
@@ -595,10 +605,8 @@
         <a href="tell:+380684439426" class="tell-footer">+380 (68) 443-94-26</a>
 
     </div>
-    <div>
-    <h2 class="title-footer">
-        Have the time of your life with our watches: where high-class craftsmanship meets impeccable design
-    </h2>
+    <div class="title-footer-container">
+    <h2 class="title-footer">Have the time of your life with our watches: where high-class craftsmanship meets impeccable design</h2>
     </div>
     <div class="links-h3-footer">
         <ul class="links-footer-list">
@@ -623,7 +631,6 @@
         </ul>
         <h3 class="site-footer">1678 S. Pioneer Road Salt Lake City UT 84104</h3>
     </div>
-    <div class="line"></div>
     <div class="div-footer-policy">
         <p class="data-footer">©2023 The Watch Spot. All rights reserved.</p>
         <div class="policy-div"><a href="" class="policy-terms">Terms of Service</a>
