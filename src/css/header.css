@@ -117,6 +117,12 @@
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.contacts-list:hover,
+.contacts-list:focus .contacts-list:active {
+  fill: #3350e9;
+  opacity: 0.8;
+}
+
 .icons-contacts:hover,
 .icons-contacts:focus .icons-contacts:active {
   fill: #3350e9;
