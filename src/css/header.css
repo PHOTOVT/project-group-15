@@ -180,6 +180,8 @@
 }
 
 .body-menu {
+  top: 0;
+  right: 0;
   position: absolute;
   background-image: url(/img/header.img/background-image-mobile.jpg);
   background-repeat: no-repeat;

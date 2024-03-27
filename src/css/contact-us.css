@@ -14,8 +14,8 @@
 }
 
 .form {
-  margin-bottom: 20px;
   padding: 48px 28px;
+  margin-bottom: 20px;
   max-width: 100%;
   border-radius: 30px;
   background-color: #f3f3f3;
@@ -110,6 +110,10 @@
 
   .form {
     padding: 50px 122px;
+  }
+
+  .form-and-image {
+    padding: 48px 28px;
   }
 
   .form-paragraph {

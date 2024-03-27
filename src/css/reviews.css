@@ -2,18 +2,10 @@
   padding-bottom: 60px;
 }
 
-/* .reviews-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-} */
-
 .review-list-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
   padding: 32px 36px;
   border-radius: 30px;
   background-color: #f3f3f3;
